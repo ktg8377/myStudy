@@ -181,7 +181,8 @@
    class="member.dto.MemberDto"
 />
    <%
-   	String email = request.getParameter("email");
+//   	String email = (String)session.getAttribute("email");
+   		String email = request.getParameter("email");
    %>
    <div id='totalDiv'>
    <div id= 'firstDiv'>

@@ -25,8 +25,8 @@ public class LoginPasswordServlet extends HttpServlet {
    @Override
    protected void doGet(HttpServletRequest req
          , HttpServletResponse res) throws ServletException, IOException {
-	  HttpSession session = req.getSession();                  
-      String email = (String)session.getAttribute("email");
+//	  HttpSession session = req.getSession();                  
+//      String email = (String)session.getAttribute("email");
       RequestDispatcher rd = req.getRequestDispatcher("./LoginPasswordForm.jsp");
       rd.forward(req, res);      
 
