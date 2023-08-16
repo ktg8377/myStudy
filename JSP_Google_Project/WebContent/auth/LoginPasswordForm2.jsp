@@ -188,8 +188,14 @@
       <a id='firstGoogle'>G</a><a id='secondGoogle'>o</a><a id='thirdGoogle'>o</a><a id='fourthGoogle'>g</a><a id='fifthGoogle'>l</a><a id='sixthGoogle'>e</a>
    </div>
    <h2>시작하기</h2>
-   <p id='firstPtag' onclick="moveFnc();"><%=email%></p>
-   <form action="./loginPassword" method="post">
+   <div id='firstPtag' onclick="moveFnc();" style="display: flex; align-items: center;">
+   	
+   	<img id='img' src="./cap.png" style="height: 30px; margin-left: 20px; margin-top: 10px;">
+   
+   	<a style="font-size: 20px;"><%=email%></a>
+   	</div>   
+     
+   <form action="./loginPassword" method="post">          
       <div id='inputDiv'>
                
       <input id='idInput' type="password" name="pwd" placeholder="비밀번호 입력" onfocus="this.placeholder = ''" onblur="this.placeholder = '이메일 또는 휴대전화'"/>

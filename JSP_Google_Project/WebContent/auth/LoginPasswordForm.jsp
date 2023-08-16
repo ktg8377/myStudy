@@ -191,7 +191,7 @@
    <h2>시작하기</h2>
    <div id='firstPtag' onclick="moveFnc();" style="display: flex; align-items: center;">
    	
-   	<img id='img' src="./cap.png" style="height: 30px; margin-left: 10px;">
+   	<img id='img' src="./cap.png" style="height: 30px; margin-left: 20px; margin-top: 10px;">
    
    	<a style="font-size: 20px;"><%=email%></a>
    	</div>
